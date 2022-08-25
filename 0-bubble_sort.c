@@ -3,7 +3,7 @@
 /**
  * bubble_sort - function that sorts an array of integers in ascending order.
  * @array: array
- * @size: size 
+ * @size: size
  * Return: nothing
  */
 
@@ -15,7 +15,7 @@ void bubble_sort(int *array, size_t size)
 	newsize = (size - 1);
 	if (array == NULL)
 		return;
-	
+
 	for (i = 0; i < size; i++)
 	{
 	for (n = 0; n < newsize; n++)
@@ -28,6 +28,5 @@ void bubble_sort(int *array, size_t size)
 		print_array(array, size);
 		}
 	}
-	
 	}
 }

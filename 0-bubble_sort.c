@@ -9,7 +9,7 @@
 
 void bubble_sort(int *array, size_t size)
 {
-	size_t i, n;
+	size_t i, n, newsize;
 	int tmp;
 
 	newsize = (size - 1);

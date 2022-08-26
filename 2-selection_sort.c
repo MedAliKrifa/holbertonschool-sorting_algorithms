@@ -13,7 +13,7 @@ void swap(int *xp, int *yp)
 }
 
 /**
- * quick_sort - function that sorts in quick sort
+ * selection_sort - function that sorts in quick sort
  * @array: array
  * @size: array size
  * Return: nothing

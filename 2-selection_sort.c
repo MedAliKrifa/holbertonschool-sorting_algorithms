@@ -2,7 +2,7 @@
 /**
  * swap - function that swap elemnts
  * @xp: first element
- * @size: last element
+ * @yp: last element
  * Return: nothing
  */
 void swap(int *xp, int *yp)
